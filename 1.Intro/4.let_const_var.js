@@ -1,12 +1,15 @@
 console.log("JS Tutorial on Let, var,const");
 
+// Var can be redeclared, whereas let can't be.
 var a = 45;
+var a = null;
+
 var b = 'Abhi';
 var c = null;
 var d = undefined;
 
 
-{
+{	// Let works in block level scope.
 	let b = "Bisht"
 	console.log("Inside the block value of b: ",b);
 }
