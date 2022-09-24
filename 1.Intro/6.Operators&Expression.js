@@ -40,6 +40,15 @@ console.log("comp1 != comp3 is ", comp1 != comp3);
 console.log("comp1 !== comp3 is ", comp1 !== comp3);
 
 
+// Logical Operator
+let y = 5
+let z = 10
+console.log(y > z && y == 5);
+console.log(y > z || y == 5);
+console.log(!false)
+
+
+
 
 
 
