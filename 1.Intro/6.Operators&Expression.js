@@ -26,6 +26,23 @@ console.log("x*=10 : ",x*=10); // x = 100
 console.log("x/=10 : ",x/=10); // x = 10
 
 
+// Comparison Operator
+let comp1 = 10
+let comp2 = 20
+let comp3 = "10"
+
+console.log("comp1,comp2,comp3", comp1,comp2,comp3)
+console.log("comp1 == comp2 is ", comp1 == comp2);
+console.log("comp1 != comp2 is ", comp1 != comp2);
+console.log("comp1 == comp3 is ", comp1 == comp3);
+console.log("comp1 === comp3 is ", comp1 === comp3);
+console.log("comp1 != comp3 is ", comp1 != comp3);
+console.log("comp1 !== comp3 is ", comp1 !== comp3);
+
+
+
+
+
 
 
 
