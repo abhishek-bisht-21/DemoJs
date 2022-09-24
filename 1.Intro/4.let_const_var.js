@@ -8,6 +8,9 @@ var b = 'Abhi';
 var c = null;
 var d = undefined;
 
+const author = "Abhishek";
+let author = "abc"; // Throws error bcoz const variable can't changed
+
 
 {	// Let works in block level scope.
 	let b = "Bisht"
