@@ -20,3 +20,12 @@ let obj =  {
 for (const key in obj) {
 	console.log(`Marks scored by ${key} is ${obj[key]}`)
 }
+
+
+// For of loop (Works for something which is iterable)
+
+let arr = [10,20,30,40,50];
+
+for(let i of arr){
+	console.log(i);
+}
