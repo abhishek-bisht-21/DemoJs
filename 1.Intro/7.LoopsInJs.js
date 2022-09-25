@@ -29,3 +29,17 @@ let arr = [10,20,30,40,50];
 for(let i of arr){
 	console.log(i);
 }
+
+
+let marks =  {
+	harry:90,
+	shubham:91,
+	lovish:92,
+	Monika:93,
+	Ritika:94
+
+}
+
+for(let i=0;i<Object.keys(marks).length;i++){
+	console.log("The marks of " + Object.keys(marks)[i] + " are " + marks[ Object.keys(marks)[i]]);
+}
