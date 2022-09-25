@@ -6,8 +6,6 @@ function calAverage(a,b){
 }
 
 
-
-
 let a = 10;
 let b = 5;
 
