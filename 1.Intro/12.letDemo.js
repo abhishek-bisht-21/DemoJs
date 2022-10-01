@@ -1,3 +1,6 @@
+// let gives a block scope.
+// if we declare let outside the block scope, then also it won't get complete Global scope
+
 {
 	let x = 10;
 	console.log(x)
