@@ -5,3 +5,16 @@
 console.log("1" + 1);
 console.log(1 - "1");
 console.log("1" + "2");
+ 
+
+// In JS there are 6 primitive type apart from that everything in jS is a Object
+// Primitive Types are :
+/*
+1) Undefined
+2) Null
+3) Boolean
+4) String
+5) Number
+6) Symbol
+
+*/
