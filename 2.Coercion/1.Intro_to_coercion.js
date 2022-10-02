@@ -18,3 +18,16 @@ console.log("1" + "2");
 6) Symbol
 
 */
+
+/*
+
+Abstract operations as a end user cannot be used in JS. They are internal to the functioning of JS Language.
+They are there to aid JS perform certain tasks. They are there in the documentation to make internal working
+of the JS easy to understand.
+
+Examples of abstract operations:
+1) ToPrimitive
+2) ToBooleans
+3) ToString
+
+*/
