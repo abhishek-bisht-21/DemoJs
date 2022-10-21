@@ -10,7 +10,7 @@ fun(2,function(){
 	console.log("Anonymous func")
 });
 
-// 2) Second way
+// 2) Second way Passing the Name of the Function, Rather than passing the function itself
 
 function gun(){
 	console.log("inside function gun")
