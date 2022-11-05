@@ -8,5 +8,9 @@ function a(name){
 }
 
 let x = a("Sanket");
+for (let index = 0; index < 100000000; index++) {
+	// something
+	
+}
 console.log(x);
 x();
