@@ -4,7 +4,7 @@ function test(){
 		let j = i;
 		setTimeout(function fun(){
 			console.log(`j: ${j}`);
-		},i*1000);
+		},j*1000);
 	}
 }
 // Try Predicting Output now
