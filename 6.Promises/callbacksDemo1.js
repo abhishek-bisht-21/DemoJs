@@ -13,7 +13,6 @@ function fetchCustom(url, fn){ // we are mimicing the function
 		console.log("Download Completed");
 		let response = "Dummy Data";
 		fn(response);
-		console.log("Ending the function")
 	},1000);
 }
 
@@ -42,6 +41,12 @@ function uploadFile(filename, newurl,fn){
 
 let response = fetchCustom("wwww.google.com", function downloadCallback(response){
 	console.log("Downloaded response is",response);
+	writeFile(response, function writeCallback(filenameResponse){
+		console.log("New File Returned", filenameResponse);
+		uploadFile(filenameResponse,"www.google.com", function uploadCallback(uploadResponse){
+			console.log("Successfully uploaded",uploadResponse);
+		});
+	})
 });
 
 
