@@ -29,6 +29,8 @@ function binarySearch(arr,x){
 	return NaN;
 }
 
+console.log("Ending Searching");
+
 module.exports = {
 	linear : linearSearching,
 	binary : binarySearch
