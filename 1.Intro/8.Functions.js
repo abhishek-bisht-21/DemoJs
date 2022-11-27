@@ -31,3 +31,24 @@ console.log(b);
 let funcContainer = function fn(){
 	console.log("I am an Expression");
 }
+funcContainer();
+
+let funcContaainer2 = function(){ // Giving name here is optional.
+	console.log("I am an Anonymous function")
+}
+funcContaainer2();
+
+
+// IIFE -> Immediately Invoked Function Expression
+// Required in :  Pollution
+(function fn(){
+	console.log("I am an IIFE");
+	console.log("I will run on my own")
+})();
+
+// Arrow Function -> USED FOR: to smaller the syntax, react, this
+let fn = (num) => {
+	return num * num;
+}
+
+let fn1 = num => num * num; // When we have only single parameter and single line of code inside body of function
