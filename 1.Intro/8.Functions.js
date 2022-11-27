@@ -1,5 +1,12 @@
 // We can return anything from a javascript function. At a single instance depending on the condtion or use
 // case we can return different types of JS values from the function (Ex using if-else) in functions.
+// Function are First Class Citizens
+// 1) Assignment ->  simply means that Functions can be treated as variables.
+// 2) functions can be passed as parameters and can be returned also. Results in -> Callbacks, HigherOrder func -> Map,Reduce, Filter
+// 3) 
+
+
+
 
 // Function Statement
 function calAverage(a,b){
