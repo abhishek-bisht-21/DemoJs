@@ -52,3 +52,4 @@ let fn = (num) => {
 }
 
 let fn1 = num => num * num; // When we have only single parameter and single line of code inside body of function
+console.log(fn1(6));
