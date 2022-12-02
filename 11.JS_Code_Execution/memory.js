@@ -12,8 +12,16 @@ console.log(this);
 // allocated to it. Variables are allocated memory in this 1st phase and is given a special keyword
 // undefined and this is popularly known as hoisting.
 
+// Hoisting for variables
 console.log("a is ",a);
 var a ;
 console.log("a is ",a);
 a = 10;
 console.log("a is ",a);
+
+// Hoisting for function statements
+fn();
+function fn(){
+	console.log("I can be called before my declaration");
+}
+fn();
