@@ -15,3 +15,6 @@ console.log(varname);
 // Functions are allocated memory in the heap.
 // With every function call a new execution context is created and whole process of 
 // memory allocation phase and code execution phase takes place.
+
+
+// Scope -> Area where a function or a variable can be found.
