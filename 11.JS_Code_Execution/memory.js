@@ -25,3 +25,20 @@ function fn(){
 	console.log("I can be called before my declaration");
 }
 fn();
+
+
+// Predict the output of the following code snippet
+
+function real(){
+	console.log("I'm the first one");
+}
+
+function real(){
+	console.log("I'm the second one");
+}
+
+function real(){
+	console.log("I'm the last one");
+}
+
+real();
