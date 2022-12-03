@@ -1,4 +1,4 @@
-// Temporal Dead Zone -> Prevents us to use variables declared with 'let' to be used before they are declared
+// Temporal Dead Zone -> Prevents us to use variables declared with 'let' used before they are initialised
 // TDZ is not a error its just a saftey measure.
 
 console.log("hello");
