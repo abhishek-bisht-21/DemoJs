@@ -10,7 +10,8 @@ function addNumImpure(b){
 addNumImpure(2);
 addNumImpure(2);
 
-// Pure Function -> Doesn't depend on any external factor or variables
+// Pure Function -> Doesn't depend on any external factor or variables.
+// With same arguments pure functions gives us same result.
 function addnumPure(a,b){
 	console.log('the sum is',a+b)
 }
