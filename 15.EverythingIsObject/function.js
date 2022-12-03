@@ -12,3 +12,8 @@ fn.myFn = function fn(){
 fn();
 fn.myFn();
 console.log(fn.prop);
+
+
+// JS -> primitive or object
+// Everything in js is object -> dates, modules, errors
+// 6 Primitive Types -> Number, Boolean, undefined, null, String, Symbol
