@@ -11,8 +11,11 @@ addNumImpure(2);
 addNumImpure(2);
 
 // Pure Function -> Doesn't depend on any external factor or variables.
-// With same arguments pure functions gives us same result.
+// With same arguments pure functions always gives us same result.
 function addnumPure(a,b){
-	console.log('the sum is',a+b)
+	// Console.log Mutuates the external screen to show us our output
+	//console.log('the sum is',a+b)  -> Side Effects
+	// To avoid Side Effects we can always use return
+	return a+b;
 }
-addnumPure(3,2);
+console.log(addnumPure(3,2));
