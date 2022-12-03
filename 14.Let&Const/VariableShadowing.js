@@ -41,7 +41,7 @@ console.log(fruit3)
 let fruit = "apple";
 console.log(fruit);
 {	// Inner Variable inside the block, Shadows the outer fruit variable
-	var fruit = "orange";
+	var fruit = "orange"; // var donot have block scope thats y. Whenever a variable's scope goes beyond its block, then shadowing is considered illegal
 	console.log(fruit);
 	
 }
