@@ -31,6 +31,7 @@ arr.print = function(){
 
 arr[96] = 100;
 console.log(arr.length)
+console.log(arr);
 //console.log(arr);
 
 // loop
