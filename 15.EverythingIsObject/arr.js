@@ -1,3 +1,4 @@
+// Objects are emulated as arrays in javascript
 let object = {
 	name: "Abhishek",
 	age: 22,
@@ -27,6 +28,9 @@ arr.myprop = "Hello";
 arr.print = function(){
 	console.log("print function called");
 }
+
+arr[96] = 100;
+console.log(arr.length)
 //console.log(arr);
 
 // loop
