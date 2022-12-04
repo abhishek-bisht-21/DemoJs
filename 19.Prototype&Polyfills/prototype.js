@@ -1,11 +1,12 @@
 Array.prototype.myFunction = function(){
-	console.log(this);
+	console.log(this); // This points to the array itself
 }
 
 let arr = [1,2,3,4,5];
 
 arr.myFunction();
 
+// Prototype + polyfills
 Array.prototype.myMap = function(cb){
 	let newArr = [];
 
